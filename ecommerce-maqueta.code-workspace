@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.html": "html",
+      "*.css": "css",
+      "*.md": "markdown",
+      "*.bat": "bat"
+    },
+    "editor.formatOnSave": true,
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ritwickdey.liveserver",
+      "bradlc.vscode-tailwindcss",
+      "esbenp.prettier-vscode",
+      "yzhang.markdown-all-in-one",
+      "github.vscode-pull-request-github"
+    ]
+  }
+}

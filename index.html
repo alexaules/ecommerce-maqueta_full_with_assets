@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce de Libros</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-indigo-600 text-white shadow-lg sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold flex items-center gap-2">
+        <img src="assets/logo.png" alt="Logo" class="w-8 h-8"> BookStore
+      </h1>
+      <ul class="flex space-x-6 font-medium">
+        <li><a href="#catalogo" class="hover:text-yellow-300">Catálogo</a></li>
+        <li><a href="#carrito" class="hover:text-yellow-300">Carrito</a></li>
+        <li><a href="#contacto" class="hover:text-yellow-300">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="relative w-full h-[60vh]">
+    <video autoplay muted loop class="w-full h-full object-cover">
+      <source src="assets/banner.mp4" type="video/mp4">
+    </video>
+    <div class="absolute inset-0 bg-black/50 flex items-center justify-center">
+      <h2 class="text-white text-4xl md:text-6xl font-bold animate-fadeIn">
+        Bienvenido a tu librería online
+      </h2>
+    </div>
+  </section>
+
+  <section id="catalogo" class="max-w-7xl mx-auto px-6 py-12">
+    <h3 class="text-3xl font-bold mb-6">Catálogo de Libros</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <article class="bg-white rounded-2xl shadow-lg p-4 hover:scale-105 transition transform duration-300">
+        <img src="https://picsum.photos/300/200" alt="Libro" class="rounded-lg mb-3">
+        <h4 class="text-xl font-semibold">El Principito</h4>
+        <p class="text-gray-600">Autor: Antoine de Saint-Exupéry</p>
+        <p class="font-bold text-indigo-600 mt-2">$15.00</p>
+        <button class="mt-3 w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-800 transition">
+          Añadir al carrito
+        </button>
+      </article>
+    </div>
+  </section>
+
+  <section id="carrito" class="bg-gray-100 py-12">
+    <div class="max-w-4xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-6">Tu Carrito</h3>
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <p class="text-gray-600">Aún no tienes libros en tu carrito.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="max-w-4xl mx-auto px-6 py-12">
+    <h3 class="text-3xl font-bold mb-6">Contáctanos</h3>
+    <form class="grid grid-cols-1 gap-4 bg-white p-6 rounded-lg shadow-lg" novalidate>
+      <input type="text" placeholder="Nombre completo" required class="border p-3 rounded">
+      <input type="email" placeholder="Correo electrónico" required class="border p-3 rounded">
+      <textarea placeholder="Mensaje" rows="4" required class="border p-3 rounded"></textarea>
+      <button type="submit" class="bg-green-600 text-white py-2 rounded hover:bg-green-800 transition">
+        Enviar mensaje
+      </button>
+    </form>
+  </section>
+
+  <section class="text-center py-12">
+    <h3 class="text-2xl font-bold mb-4">Escucha nuestra recomendación semanal</h3>
+    <audio controls>
+      <source src="assets/audio.mp3" type="audio/mpeg">
+      Tu navegador no soporta audio.
+    </audio>
+  </section>
+
+  <footer class="bg-indigo-700 text-white py-6 mt-12 text-center">
+    <p>&copy; 2025 BookStore. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
