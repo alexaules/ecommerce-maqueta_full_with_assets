@@ -1,4 +1,4 @@
-# 📚 E-Commerce de Libros – Maqueta Inicial
+# E-Commerce de Libros – Maqueta Inicial
 
 Este proyecto es una maqueta inicial de una plataforma **e-Commerce especializada en la venta de libros**, desarrollada como parte del caso de estudio académico en *Ingeniería de Software*.  
 
@@ -6,7 +6,7 @@ La maqueta demuestra el dominio de **HTML5, CSS3 avanzado y TailwindCSS**, aplic
 
 ---
 
-## 🚀 Características principales
+## Características principales
 - **Estructura semántica con HTML5**
 - **Formularios con validación**
 - **Video y audio**
@@ -16,7 +16,7 @@ La maqueta demuestra el dominio de **HTML5, CSS3 avanzado y TailwindCSS**, aplic
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 - HTML5
 - CSS3 avanzado
 - TailwindCSS
@@ -24,7 +24,7 @@ La maqueta demuestra el dominio de **HTML5, CSS3 avanzado y TailwindCSS**, aplic
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 ```
 /ecommerce-maqueta
 │── index.html           
@@ -43,20 +43,23 @@ La maqueta demuestra el dominio de **HTML5, CSS3 avanzado y TailwindCSS**, aplic
 
 ---
 
-## 🖼️ Capturas de pantalla
+## Capturas de pantalla
 
-### 🖥️ Vista en escritorio
+<img width="1829" height="904" alt="image" src="https://github.com/user-attachments/assets/9ad1f3ee-ebe2-4f9d-a6a3-8c1a60ca0f63" />
+
+
+### Vista en escritorio
 ![Desktop Screenshot](assets/screenshots/desktop.png)
 
-### 📊 Vista en tablet
+### Vista en tablet
 ![Tablet Screenshot](assets/screenshots/tablet.png)
 
-### 📱 Vista en móvil
+### Vista en móvil
 ![Mobile Screenshot](assets/screenshots/mobile.png)
 
 ---
 
-## ⚙️ Instalación y ejecución
+## Instalación y ejecución
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/ecommerce-maqueta.git
@@ -69,11 +72,11 @@ La maqueta demuestra el dominio de **HTML5, CSS3 avanzado y TailwindCSS**, aplic
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 - **Hernan Alexis Aules León**  
   *Estudiante de Maestría en Ingeniería de Software*  
 
 ---
 
-## 📖 Licencia
+## Licencia
 Este proyecto se distribuye bajo la licencia MIT.  
